@@ -1,0 +1,13 @@
+[package]
+name = "eat_bot"
+version = "0.1.0"
+authors = ["Danil Lugovskoy <deniallugo@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+telegram-bot = '0.6.3'
+dotenv = "0.14.1"
+serde_json = "1.0"
+serde = "1"
+[dependencies.bot_mother]
+path = "bot_mother"

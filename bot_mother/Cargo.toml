@@ -1,0 +1,15 @@
+[package]
+name = "bot_mother"
+version = "0.1.0"
+authors = ["Danil Lugovskoy <deniallugo@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+telegram-bot = '0.6.3'
+futures = "0.1.28"
+tokio = "0.1.22"
+tokio-core = "0.1"
+failure_derive = "0.1.5"
+failure = "0.1.5"
+diesel = { version = "1.4.0", features = ["sqlite"] }
+dotenv = "0.10"
